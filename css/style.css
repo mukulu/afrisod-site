@@ -942,7 +942,8 @@
 					height: 80px;
 					line-height: 80px;
 					background: #111111;
-					text-align: center;
+					text-align: left;
+					padding-left:10px;
 					opacity: 0.85;
 					font-weight: normal;
 					color: #ffffff;
@@ -958,7 +959,8 @@
 					height: 40px;
 					line-height: 40px;
 					background: #0074C6;
-					text-align: center;
+					text-align: left;
+					padding-left:10px;
 					opacity: 0.85;
 					font-weight: normal;
 					color: #ffffff;
