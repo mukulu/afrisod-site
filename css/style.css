@@ -930,8 +930,40 @@
 			height: 20em;
 			margin: 0 auto;
 			overflow: hidden;
-			width: 80%;
+			width: 100%;
 		}
+
+			.slider .viewer .reel h2
+				{
+					position: absolute;
+					top: 260px;
+					left: 0;
+					width: 100%;
+					height: 80px;
+					line-height: 80px;
+					background: #111111;
+					text-align: center;
+					opacity: 0.85;
+					font-weight: normal;
+					color: #ffffff;
+					font-size: 2.25em;
+				}
+
+				.slider .viewer .reel p
+				{
+					position: absolute;
+					top: 340px;
+					left: 0;
+					width: 100%;
+					height: 40px;
+					line-height: 40px;
+					background: #0074C6;
+					text-align: center;
+					opacity: 0.85;
+					font-weight: normal;
+					color: #ffffff;
+					font-size: 1.1em;
+				}
 
 		.slider .slide img {
 			border-radius: 0.375em;
@@ -955,6 +987,7 @@
 			text-align: center;
 			top: 50%;
 			width: 1.25em;
+			z-index:1;
 		}
 
 			.slider .nav-next:before,
@@ -1370,4 +1403,11 @@
 
 		#footer .copyright {
 			font-size: 0.8em;
+		}
+
+
+		#logo {
+			width:264px;
+			height:350px;
+			background: url(../images/logo.png) no-repeat 0 50%;
 		}
